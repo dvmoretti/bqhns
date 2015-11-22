@@ -1,0 +1,351 @@
+/*
+ *  Resets & HTML5 blocks
+ */
+
+*
+{
+	font-size:inherit;
+	font-weight:inherit;
+	font-style:inherit;
+	margin:0;
+	padding:0;
+}
+
+article,
+aside,
+footer, 
+header,
+hgroup,
+menu,
+nav,
+section
+{
+	display:block;
+}
+
+/*
+ * Accessibility hide
+ */
+
+.accessiblyHidden
+{
+  position: absolute;
+  left: -999px;
+  width: 900px;
+} 
+
+/*
+ *  General element styles
+ */
+
+a
+{
+	color: #CCC;
+	text-decoration: none;
+	border-bottom:1px dotted #CCC;
+}
+
+a:link,
+a:visited
+{
+	color: #CCC;
+}
+
+a.helpTarget.deactivated
+{
+  border-bottom:none;
+}
+
+article,
+.SelfContained
+{
+	background-color: #252525;
+	margin: 2em 5%;
+	padding: 2em 4em;
+}
+
+canvas
+{
+  margin-top:1em;
+}
+
+fieldset
+{
+  border: none;
+}
+
+hgroup,
+.Headings
+{
+	text-align:center;
+}
+
+h1,
+h2.Title,
+.inventory h2.Title,
+h3.Title
+{
+	color: #4CE;
+	font-size:150%;
+	font-weight: bold;
+  margin-bottom: inherit;
+}
+
+h2,
+.SubTitle1
+{
+	color: #E9B928;
+	font-size: 130%;
+	font-weight: bold;
+}
+
+h3,
+.SubTitle2
+{
+	color: #E9B928;
+	font-size: 115%;
+	font-weight: bold;
+}
+
+h4,
+.SubTitle3
+{
+	color: #E9B928;
+	font-size: 110%;
+	font-weight: bold;
+}
+
+li
+{
+  margin-left:1em;
+}
+
+.helpTopic,
+section,
+.SectionContainer
+{
+	border: 1px solid #E9B928;
+	margin-top: 2em;
+	min-height: 50px;
+	padding: 1em;
+}
+
+
+/*
+ *   Specific areas on each page, from top-down
+ */
+
+header,
+.Header
+{
+	background-color: #252525;
+	border-top:0.5em solid #252525;
+	border-bottom:1em solid #252525;
+	clear: both;
+	height: 7.5em;
+	left: 0;
+	margin: 0;
+	position: fixed;
+	top: 0;
+	width:100%;
+}
+  
+header hgroup,
+.Header .Headings
+{
+	height:3.5em;
+	padding: 1em 1em 1em 1em;
+	text-align: center;
+	width: 100%;
+}
+
+header hgroup h1,
+.Header .Headings h1
+{
+	background-image: url(/images/logo-background.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+	color: #252525;
+	float:left;
+	font-size: 1px;
+	font-weight: bold;
+	height:56px;
+	text-align:center;
+	width:300px;
+}
+
+header hgroup h2,
+.Header .Headings .SubTitle1
+{
+	float:left;
+	font-family: serif;
+	font-size: 1.2em;
+	font-style: italic;
+	font-weight: bold;
+	padding-left:1em;
+	padding-top:0.8em;
+	text-align:left;
+}
+
+nav,
+.Navigation
+{
+	background-color: #CCC;
+	height: 2.5em;
+	padding-left:3em;
+}
+
+nav menu,
+.Navigation .Menu
+{
+	border-left:1px solid #666;
+  height: 2.5em;
+}
+
+nav li,
+.Navigation li
+{
+	border-right: 1px solid #666;
+	float:left;
+	display:block;
+	height:2em;
+  margin-left: 0;
+  padding: 0.5em 0 0 0;
+	width:7em;
+	text-align:center;
+}
+
+nav li a,
+.Navigation li a
+{
+	margin:0.5em;
+}
+
+nav li a,
+.Navigation li a,
+nav li a:link,
+.Navigation li a:link,
+nav li a:visited,
+.Navigation li a:visited
+{
+	color: #252525;
+}
+
+#menuLoc
+{
+  margin:1em 0;
+}
+
+#loc
+{
+  background-color: #CEF;
+	border: 1px solid #252525;
+	color: #252525;
+  font-size: 120%;
+  width: 20em;
+}
+
+body header article,
+body .Header .SelfContained
+{
+	clear:both;
+}
+
+.inventory h2,
+.inventory .SubTitle1
+{
+  font-size:70%;
+  margin-bottom:2em;
+}
+
+.main
+{
+	margin-right: 260px;
+}
+
+article hgroup,
+.SelfContained .Headings
+{
+	text-align: left;
+}
+
+#rightContainer
+{
+  float:right;
+	margin-right:3%;
+  width:200px;
+}
+
+aside,
+.SideBar
+{
+	background-color: #E9B928;
+	border: 8px outset #E9B928;
+	color: #252525;
+	padding: 1em 1em;
+	text-align: center;
+}
+
+aside p,
+.SideBar p
+{
+	color: #252525;
+	font-style: italic;
+}
+
+aside p strong,
+.SideBar p strong
+{
+	color:#010066;
+	Qdisplay:block;
+	font-family:serif;
+	font-size:200%;
+	font-style: normal;
+	font-weight:bold;
+}
+
+aside h2,
+.SideBar .SubTitle1
+{
+	color: #010066;
+}
+
+.tagcloud
+{
+  margin:0 0 1em 0;
+	padding:20px;
+  text-align:center;
+}
+
+article.tagcloud h1
+{
+  display:none;
+}
+
+
+.teaser
+{
+	color:#E9B928;
+	font-style:italic;
+}
+
+footer,
+.Footer
+{
+	background-color: #ffcc00;
+	clear:both;
+	color: #010066;
+	font-size: 1em;
+	font-weight: bold;
+	margin-top:1em;
+	text-align:center;
+	padding:1em 2em;
+}
+
+select
+{
+  border: 1px solid #4CE;
+  background-color: #252525;
+  color: #CCC;
+  font-size: 120%;
+}

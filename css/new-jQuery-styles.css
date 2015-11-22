@@ -1,0 +1,232 @@
+/*  page layout  */
+#navigation
+{
+    padding: 0em 1em 0em 1em;
+    background-color:#081022;
+    color:White;
+}
+#content 
+{
+    padding:1em;
+}
+#useJavaScript 
+{
+    padding:1em;
+}
+
+#navigation a, #navigation a:hover, #navigation a:visited, #navigation a:active
+{   
+    color: White;   
+    font-weight:bold;
+}
+
+
+/*  forms  */
+#contactusform
+{
+    width:650px;
+}
+
+fieldset  
+{
+    padding:0.5em
+    }
+fieldset label  
+{
+    display: inline-block; 
+    width: 150px; 
+    }
+fieldset label.error  
+{
+    width:300px
+    }
+
+
+/*  carousel    */
+#carouselPanel 
+{
+        width:720px; 
+        height:300px;
+        background:#ffffff;
+        overflow:scroll;
+}
+    
+.carouselLeft 
+{ 
+    position:absolute;
+    top:575px;
+    left:20px;
+}
+.carouselRight
+{
+    position:absolute;
+    top:575px;
+    left:64px;
+}
+
+#carouselPanel img
+{
+    border-style:none;
+    }
+
+.carouselLeft { 
+    display:none;
+    background-image: url([system-asset]/_common/images/arrow2.gif[/system-asset]); 
+    width:32px; height:32px;
+    background-repeat:no-repeat;
+}
+.carouselLeft:hover {   
+    background-image: url([system-asset]/_common/images/arrow7.gif[/system-asset]);   
+    width:32px; height:32px;
+    cursor:auto;
+    background-repeat:no-repeat;
+}
+.carouselRight {
+    display:none;
+    background-image: url([system-asset]/_common/images/arrow3.gif[/system-asset]);
+    background-position: 0px -2px;
+    width:32px; height:32px;
+    background-repeat:no-repeat;
+}
+.carouselRight:hover {  
+    background-image: url([system-asset]/_common/images/arrow8.gif[/system-asset]);
+    background-position: 0px -2px;
+    width:32px; height:32px;
+    background-repeat:no-repeat;
+}
+
+
+/*  bios  */
+.personnel
+{
+    width:500px;
+}
+
+.personnel td
+{
+    padding:0.5em;
+    text-align:center;
+}
+    
+.personnel caption
+{
+  caption-side: bottom;
+  font-size: 0.9em;
+  font-style: italic;
+  text-align: right;
+  padding: 0.5em 0;
+}
+
+.photo
+{
+    margin: 0em 2em 2em 2em;
+    float:right;
+}
+
+
+/*  chat window  */
+#chatWindow
+{
+    width:380px;
+    height:410px; 
+    z-index:1;
+    position:relative;
+}
+#chatWindow div  
+{
+    text-align:right;
+}       
+#chatWindow p
+{
+    margin:1em; 
+}   
+#chatWindow ul  
+{
+    margin:1em; 
+    height:200px; 
+    background-color:White; 
+    display:block;  
+    list-style-type:none;
+    padding-left:0em;
+    overflow:auto;
+    }
+#chatTextBox  
+{
+    width:350px;
+}
+#chatWindow textarea  
+{
+    width:340px;
+    height:40px; 
+}
+
+#chatListWindow 
+{
+    width:250px;
+    border: 1px solid black;
+    padding:2px;
+    margin:0px;
+    }
+
+#chatListWindow li
+{
+    display:block;  
+    list-style-type:none;
+    
+    }
+
+div.span
+{   
+    display:inline-block;
+    min-width:150px;
+    }
+
+
+/*  validation  */
+input.error, textarea.error
+{
+    border: 1px solid red;
+    background-color:#FFDDDD;
+}
+label.error
+{
+    color: red;
+}
+
+
+.academics ul {
+    list-style: square inside;
+}
+.academics li {
+    margin-left: -2em; /* was 0px     was 5px */
+    padding-bottom: 8px;
+    text-decoration: none;
+    list-style-type: none;
+}
+.academics li a {
+    text-decoration: none;
+    list-style-type: none;
+    border-bottom: 1px dotted;
+}
+
+.roundBox {
+    border: 1px solid #dddddd;
+    padding:5px;
+    border-radius:15px;
+}
+.roundBox2 {
+    background-color: #eeeeee;
+    border: 1px solid #dddddd;
+    padding:5px;
+    border-radius:15px;
+}
+
+.sidebarMenu1 { float: left; }
+.sidebarMenu1 li ul {
+    position: relative;
+    display:none;
+}
+
+.sidebarMenu1 li:hover ul {
+    display: inline-block;
+}

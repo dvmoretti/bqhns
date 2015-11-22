@@ -1,0 +1,52 @@
+﻿.all-rounded,
+article,
+.not-selected,
+.selected,
+aside ul li a,
+aside div span	{ border-radius:9px; -moz-border-radius:9px; -webkit-border-radius: 9px; }
+.top-rounded	{ border-top-left-radius:9px; -moz-border-radius-topleft:9px; -webkit-border-top-left-radius:9px; 
+				 border-top-right-radius:9px; -moz-border-radius-topright:9px; -webkit-border-top-right-radius:9px; }
+.bottom-rounded	{ border-bottom-left-radius:9px; -moz-border-radius-bottomleft:9px; -webkit-border-bottom-left-radius:9px; 
+				  border-bottom-right-radius:9px; -moz-border-radius-bottomright:9px; -webkit-border-bottom-right-radius:9px; }
+.left-rounded	{ border-top-left-radius:9px; -moz-border-radius-topleft:9px; -webkit-border-top-left-radius:9px;
+				  border-bottom-left-radius:9px; -moz-border-radius-bottomleft:9px; -webkit-border-bottom-left-radius:9px; }
+.right-rounded	{ border-top-right-radius:9px; -moz-border-radius-topright:9px; -webkit-border-top-right-radius:9px;
+				  border-bottom-right-radius:9px; -moz-border-radius-bottomright:9px; -webkit-border-bottom-right-radius:9px; }
+.btlft-rounded	{ border-bottom-left-radius:9px; -moz-border-radius-bottomleft:9px; -webkit-border-bottom-left-radius:9px; }
+.btrght-rounded	{ border-bottom-right-radius:9px; -moz-border-radius-bottomright:9px; -webkit-border-bottom-right-radius:9px; }
+.not-selected,
+.selected	{ display:block; float:right; width:70px; height:25px; padding:0px 5px; margin:0px 2px; line-height:25px; }
+.no-hover:hover	{ background-color:#E2E5E8; border:1px solid #E2E5E8; }
+.message, .message:hover { background-color:#FFFFCC; border:1px solid #EEEEBB; height:30px; line-height:30px; }
+.error, .error:hover { background-color: #FF8D87; border:1px solid #FF0000; height:30px; line-height:30px; }
+ 
+/* end general styling classes */
+
+/* structure styling - sizes and positioning */
+ 
+header	{ display:block; width:798px; height:205px; margin:0px auto; margin-top:50px; }
+#wrapper { display:block; width:800px; margin:0px auto; background-color:white }
+
+section	{ display:block; width:588px; padding:0px 5px 25px 5px; margin:0px auto; float:left; }
+section h1	{ display:block; width:200px; height:25px; float:left; margin-bottom:25px; margin-top:25px; }
+
+aside { display:block; width:200px; margin:0px auto; float:left; background-color:#fc0;}
+aside ul li a	{ display:block; width:175px; margin:0px auto; border:1px solid #CACDD0; padding:0px 5px 10px 5px; }
+
+article	{ display:block; clear:both; margin-top:10px; }
+article.logo {
+	width:175px;
+	height:196px;
+	float:left;
+	display:inline
+}
+article.mission { width:400px; float:right; display:inline }
+article h1,
+article details	{ display:block; width:550px; padding:0px; margin:0px; }
+
+article.addr {
+	text-align:center; color:#000033; font-style: italic; font-weight: bold; font-size: 14px;
+}
+article.fyi {
+	text-align:center; color:#000033; font-style: italic; font-weight: bold; font-size: 12px;
+}

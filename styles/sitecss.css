@@ -1,0 +1,191 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*	Reset everything	*/
+*	{
+	margin:0;
+	padding:0;
+	font-size:100%;
+}
+
+body {
+	background-color:#ddd;
+	color: #000;
+	margin:0 auto;
+	border:0;
+	padding:0;
+	font:normal 0.875em Verdana, sans-serif;
+}
+
+/*	Generic styles	*/
+h1, h2, h3, h4, h5, h6 { font-family: "Times New Roman", Times, serif; /* was Verdana, sans-serif; */ }
+h1 {
+	font-size:200%;
+	margin:0.5em 0;
+	color:#010066;
+}
+h2 {
+	font-size:150%;	/*	was 125%	*/
+	margin:1em 0 0.5em; 
+	color:#010066;
+}
+h3 {
+	font-size:137.5%;		/*	was font-size:150%;	*/
+	margin:0.4em 0;
+	color:blue;
+}
+h4 {
+	font-size:125%;
+	margin:0.4em 0;
+	color:#010066;	/* was blue */
+}
+h5 { 
+	font-size:112.5%;
+	margin:0.4em 0;
+}	
+h6 { 
+	font-size:100%;
+	margin:0.4em 0;
+}	
+p {
+	margin: 1em 0;
+	padding: 0;
+}
+ul { 
+	list-style:square outside none; 
+	margin:0 0 1.3em 35px;
+}
+ol {
+	list-style:decimal outside none;
+	margin:0 0 1.3em 35px;
+}
+a {
+	text-decoration:underline;
+	color:#00f;  
+}
+a:link {
+	color:#00F; text-decoration: none;
+}
+a:visited {
+	color:#C00; text-decoration: underline;
+}
+a:hover {
+	color:#FFF; background-color:#00F; text-decoration: none;
+}
+a:active {
+	color:#00F; text-decoration: none;
+}
+
+img {border:0;}
+hr {
+    border: none 0;
+    border-top: 1px dashed #444;
+    margin: 6px 0;
+    width: 100%;
+    height: 1px;
+}
+
+.boldItalic {font-style: italic; font-weight: bold;}
+.boldItalicText {
+	font-style: italic;
+	font-weight: bold;
+}
+.blue1 {color: #003;}
+.blue2 {color: #010066;}
+.small {font-size:0.875em;}	/* was color: #010066; font-style: italic; font-weight: bold; font-size: 14px;	*/
+.smallText {font-size: 0.875em;}
+.smaller {font-size:0.75em;}	/* was color: #000033; font-style: italic; font-weight: bold; font-size: 12px;	*/
+.smallerText {font-size:0.75em;}
+.big {font-size:1em;}	/* was color: #010066; font-style: italic; font-weight: bold; font-size: 16px;	*/
+.xtraspacingabove {margin-top:1em;}
+.floatLeft {float:left; margin:.5em;}
+.floatRight {float:right; margin:.5em;}
+
+/*	Content areas and boundaries	*/
+#container {
+	width:800px;
+	background-color: #fff;
+	margin:0 auto;
+	border:thin solid #bbb;
+}
+#header {
+	position:relative;
+	height:200px;
+	width:800px;
+	Qmargin-bottom:.5em;
+}
+/*	Main area including content, left-side navigation, and footer	*/
+
+#contentarea {
+	background-color:#fff;	/*  #fc0;  */
+	width:800px;
+}
+#content {
+	Qbackground-color:#fff;
+	padding:0 1em 0 .5em;
+	margin:0 auto;
+	float:right;
+	text-align:left;
+	width:75%;
+}
+
+/*	menu - navigation within this site's section.  Often called the LeftNav unless it sits on the right.	*/
+#menu { 
+	float:left;
+	margin:0 .5em 0 0;
+	padding:0;
+	width:21%;
+	font:normal .9em/125% Arial, Helvetica, sans-serif;
+	text-align:left;
+	background-color:#fc0;
+	/* border:thin solid #ddd; */
+}
+#menu ul {		
+	list-style:none;	/*  Remove bullets - to be replaced with our own  */
+	margin:0;	/*  Override default  */
+}
+#menu li {
+	padding:0;	/*  No padding - add it to the anchor  */
+}
+#menu a {			
+	display:block;	/*  full-width for hover  */
+	padding:0.25em 10px;
+	color:blue;	/*  Menu item color  */
+	text-decoration:none;	/*  Remove underline  */
+}
+#menu a:hover {
+	text-decoration:underline;
+	color:white;
+	background-color:blue; 
+}
+#menu li ul {
+	Qmargin:0 0 0 -25px;
+}
+#menu li li {			
+	padding-left:20px; 
+}
+#menu>ul>li {	
+	border-bottom:1px solid #ddd;	/*  Add dividers to all top-level list items - issue with IE6  */
+	padding-bottom:0.33em;	/*  Add some more space between the elements  */
+}
+
+/*	page footer	*/
+#footer {
+	background-color:#003;
+	clear:both;
+	width:800px;
+	/* margin-top:1em; */
+	padding:0.5em 0;
+	font-weight:bold;
+	text-align:center;
+	color:#fc0;
+	text-shadow:2px 2px #444;
+}
+
+.ClearFix:after {
+	content:"&nbsp;";
+	display:block;
+	height:0;
+	clear:both;
+	visibility:hidden;
+}

@@ -1,0 +1,121 @@
+@charset "utf-8";
+/* CSS Document */
+
+ul.bqhns2 ul{display:none}
+ul.bqhns2 li:hover>ul{display:block}
+ul.bqhns2 ul{position: absolute;left:98%;top:-1px;}
+ul.bqhns2 ul ul{position: absolute;left:98%;top:-2px;}
+ul.bqhns2,ul.bqhns2 ul {
+	margin:0px;
+	list-style:none;
+	padding:0px 1px 1px 0px;
+	background-color:#fc0;
+	background-repeat:repeat;
+	border-color:#fc0;
+	border-width:1px;
+	border-style:solid;
+}
+ul.bqhns2 table {border-collapse:collapse}ul.bqhns2 {
+	display:block;
+	zoom:1;
+	_width:161.70000000000002px;
+	float: left;
+}
+ul.bqhns2 ul{
+	width:177.45000000000002px;
+}
+ul.bqhns2 li{
+	display:block;
+	margin:1px 0px 0px 1px;
+	font-size:0px;
+}
+ul.bqhns2 a:active, ul.bqhns2 a:focus {
+outline-style:none;
+}
+ul.bqhns2 a, ul.bqhns2 li.dis a:hover, ul.bqhns2 li.sep a:hover {
+	display:block;
+	vertical-align:middle;
+	zoom:1;
+	background-color:#fc0;
+	border-width:0px;
+	border-color:#E4E1DE;
+	border-style:solid;
+	text-align:left;
+	text-decoration:none;
+	padding:4px;
+	_padding-left:0;
+	font:normal 12px Verdana;
+	color: #0033FF;
+	text-decoration:none;
+	cursor:default;
+}
+ul.bqhns2 span{
+	overflow:hidden;
+}
+ul.bqhns2 ul li {
+	float:none;
+}
+ul.bqhns2 ul a {
+	text-align:left;
+	white-space:nowrap;
+}
+ul.bqhns2 li.sep{
+	text-align:left;
+	padding:0px;
+	line-height:0;
+}
+ul.bqhns2 li.sep span{
+	float:none;	padding-right:0;
+	width:100%;
+	height:3;
+	display:inline-block;
+	background-color:;	background-image:none;}
+ul.bqhns2 li:hover{
+	position:relative;
+}
+ul.bqhns2 li:hover>a{
+	background-color:#fd3;
+	border-color:#fff;
+	border-style:solid;
+	font:normal 12px Verdana;
+	color: #010066;
+	text-decoration:none;
+}
+ul.bqhns2 li a:hover{
+	position:relative;
+	background-color:#fd3;
+	border-color:#fff;
+	border-style:solid;
+	font:normal 12px Verdana;
+	color: #010066;
+	text-decoration:none;
+}
+ul.bqhns2 li.dis a {
+	color: #AAAAAA !important;
+}
+ul.bqhns2 img {border: none;float:left;_float:none;margin-right:4px;width:24px;
+height:24px;
+}
+ul.bqhns2 ul img {width:16px; height:16px;}
+ul.bqhns2 img.over{display:none}
+ul.bqhns2 li.dis a:hover img.over{display:none !important}
+ul.bqhns2 li.dis a:hover img.def {display:inline !important}
+ul.bqhns2 li:hover > a img.def  {display:none}
+ul.bqhns2 li:hover > a img.over {display:inline}
+ul.bqhns2 a:hover img.over,ul.bqhns2 a:hover ul img.def,ul.bqhns2 a:hover a:hover ul img.def,ul.bqhns2 a:hover a:hover img.over,ul.bqhns2 a:hover a:hover a:hover img.over{display:inline}
+ul.bqhns2 a:hover img.def,ul.bqhns2 a:hover ul img.over,ul.bqhns2 a:hover a:hover ul img.over,ul.bqhns2 a:hover a:hover img.def,ul.bqhns2 a:hover a:hover a:hover img.def{display:none}
+ul.bqhns2 a:hover ul,ul.bqhns2 a:hover a:hover ul{display:block}
+ul.bqhns2 a:hover ul ul{display:none}
+ul.bqhns2 span{
+	display:block;
+	background-image:url(/Assessment/images/arrow.gif);
+	background-position:right center;
+	background-repeat: no-repeat;
+   padding-right:12px;}
+ul.bqhns2 li:hover>a>span{background-image:url(/Assessment/images/arrow_down2.gif);
+}
+ul.bqhns2 a:hover span{background-image:url(/Assessment/images/arrow_down2.gif)}
+ul.bqhns2 ul span,ul.bqhns2 a:hover table span{background-image:url(/Assessment/images/arrow.gif)}
+ul.bqhns2 ul li:hover > a span{background-image:url(/Assessment/images/arrow_down2.gif);}
+ul.bqhns2 table a:hover span,ul.bqhns2 table a:hover a:hover span{background-image:url(/Assessment/images/arrow_down2.gif)}
+ul.bqhns2 table a:hover table span{background-image:url(/Assessment/images/arrow.gif)}

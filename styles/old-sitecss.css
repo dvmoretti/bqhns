@@ -1,0 +1,22 @@
+/*  Old Styles  */
+.style1 {color: #000033; font-style: italic; font-weight: bold; font-size: 16px; }
+.style2 {color: #FF9900; font-size: 14px; font-weight: bold; font-style: italic; }
+.style3 {font-weight: bold; font-size: 14px; color: #010066; }
+.style4 {font-size: 14px; color: #010066; }
+.style5 {font-size: 10px; }
+.style6 {font-size: 14px; font-weight: bold; color: #010066; }
+.style7 {font-size: 13px; }
+.style8 {font-size: 12px; font-style: italic; color: #01005C; }
+.style9 {color: #000000; font-size: 16px;}
+.style10 {color: #010066; font-size: 14px; font-weight: bold; }
+.style11 {color: #000033; font-style: italic; font-weight: bold; font-size: 14px; }
+.style12 {color: #000033; font-style: italic; font-weight: bold; font-size: 12px; }
+.style13 {color: #000033; font-style: italic; font-weight: bold; font-size: 16px; }
+.style14 {color: #010066; font-style: italic; font-weight: bold; font-size: 14px; }
+.style15 {color: #010066; font-style: italic; font-weight: bold; font-size: 12px; }
+.style16 {color: #010066; font-style: italic; font-weight: bold; font-size: 16px; }
+.style17 {color: #FFFFFF; font-size: 18px;}
+.style18 {font-weight: bolder; color: #009900; font-size: 1.2em; }
+.title {font-size:1.5em; font-weight:bold; color:#003;}
+.value {font-size:1.5em;}
+.indentText {margin-left:2.75em; padding-left:-2.75em;}
